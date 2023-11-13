@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 
 nltk.download('punkt')
 
-# Carregue um modelo Word2Vec menor
+# Carregue um modelo Word2Vec 
 word2vec_model = api.load('glove-wiki-gigaword-100')
 
 # Função para encontrar sinônimos com base na similaridade do Word2Vec
